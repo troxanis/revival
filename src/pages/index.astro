@@ -1,6 +1,6 @@
 ---
 import { Image } from "@astrojs/image/components";
-import underConstruction from "../assets/under-construction.jpeg";
+import revival from "../assets/revival.jpg";
 ---
 
 <html lang="en">
@@ -13,12 +13,13 @@ import underConstruction from "../assets/under-construction.jpeg";
   </head>
   <body>
     <main
-      class="w-full h-screen after:absolute after:top-0 after:left-0 after:block after:h-full after:w-full after:bg-gradient-to-b after:from-black after:to-black after:opacity-70"
+      class="w-full h-screen after:absolute after:top-0 after:left-0 after:block after:h-full after:w-full after:bg-gradient-to-b after:from-black after:to-black after:opacity-60"
     >
       <Image
-        src={underConstruction}
+        src={revival}
         alt="Under construction"
         fit="cover"
+        position={"bottom"}
         width={1280}
         height={720}
         class="w-full h-full object-cover overlay"
